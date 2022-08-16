@@ -1,0 +1,15 @@
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFrameworkGrupOdevi.exe.config
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFrameworkGrupOdevi.exe
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFrameworkGrupOdevi.pdb
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\HFurkan _FurkanK_Resul _Avnullah_YazarEserApp.csproj.AssemblyReference.cache
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\EntityFrameworkGrupOdevi.Form1.resources
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\EntityFrameworkGrupOdevi.Properties.Resources.resources
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\HFurkan _FurkanK_Resul _Avnullah_YazarEserApp.csproj.GenerateResource.cache
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\HFurkan _FurkanK_Resul _Avnullah_YazarEserApp.csproj.CoreCompileInputs.cache
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\EntityFrameworkGrupOdevi.exe
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\EntityFrameworkGrupOdevi.pdb
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFramework.dll
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFramework.xml
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pana_\Desktop\bilge adam\Entity Framework Odev\EntityFramework\EntityFrameworkGrupOdevi\obj\Debug\HFurkan _FurkanK_Resul _Avnullah_YazarEserApp.csproj.CopyComplete

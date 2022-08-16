@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YazarEserDBModelStoreContainer" CdmEntityContainer="YazarEserDBEntities">
+    <EntitySetMapping Name="Eserlers">
+      <EntityTypeMapping TypeName="YazarEserDBModel.Eserler">
+        <MappingFragment StoreEntitySet="Eserler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="YazarId" ColumnName="YazarId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yazarlars">
+      <EntityTypeMapping TypeName="YazarEserDBModel.Yazarlar">
+        <MappingFragment StoreEntitySet="Yazarlar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TamAd" ColumnName="TamAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

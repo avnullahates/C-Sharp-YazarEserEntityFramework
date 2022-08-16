@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YazarEserDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Eserler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Icerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YazarId" Type="Int32" />
+    <NavigationProperty Name="Yazarlar" Relationship="Self.FK__Eserler__YazarId__267ABA7A" FromRole="Eserler" ToRole="Yazarlar" />
+  </EntityType>
+  <EntityType Name="Yazarlar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TamAd" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Eserlers" Relationship="Self.FK__Eserler__YazarId__267ABA7A" FromRole="Yazarlar" ToRole="Eserler" />
+  </EntityType>
+  <Association Name="FK__Eserler__YazarId__267ABA7A">
+    <End Role="Yazarlar" Type="Self.Yazarlar" Multiplicity="0..1" />
+    <End Role="Eserler" Type="Self.Eserler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yazarlar">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Eserler">
+        <PropertyRef Name="YazarId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YazarEserDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Eserlers" EntityType="Self.Eserler" />
+    <EntitySet Name="Yazarlars" EntityType="Self.Yazarlar" />
+    <AssociationSet Name="FK__Eserler__YazarId__267ABA7A" Association="Self.FK__Eserler__YazarId__267ABA7A">
+      <End Role="Yazarlar" EntitySet="Yazarlars" />
+      <End Role="Eserler" EntitySet="Eserlers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
